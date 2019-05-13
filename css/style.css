@@ -1,0 +1,24 @@
+/* style.css for cards.html */
+
+body {
+	background: #dadada;
+	font-family: Helvetica,'Proxima Nova',Georgia;
+}
+
+#container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	padding:20px;
+	border-radius: 8px;
+}
+
+.card {
+	align-self: auto;
+	border: 2px solid #dadada;
+	margin: 10px;
+	border-radius: 8px;
+	box-shadow: 4px 4px 4px;
+}
